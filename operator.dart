@@ -1,7 +1,7 @@
 void main() {
   var a = 10;
   var b = 4;
-  var c = a + b;
+  // var c = a + b;
 
   /* istilah 
   operands -> representasi dari data (a & b)
@@ -43,6 +43,7 @@ void main() {
   print(x && y);
 
   // || OR -> bernilai true apabila   salah satu bernilai true
+  // ignore: dead_code
   print(x || y);
 
   // ! NOT -> nilai menjadi berlawanan
